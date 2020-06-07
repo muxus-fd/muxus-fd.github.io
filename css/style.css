@@ -1,0 +1,269 @@
+/*Подключил шрифты  */
+@import url(font.css);
+
+
+/* Сбросил марджин  */
+body {
+    margin: 0;
+}
+
+
+/* Настройки для контейнера и хедера */
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.main-header {
+    min-height: 1024px;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 40px 150px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 181px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+    margin-left: 226px;
+}
+
+.header-logo {
+    fill: currentColor;
+}
+
+.header-logo-txt {
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 200;
+    letter-spacing: -1px;
+    text-align: right;
+}
+
+.header-link:hover {
+    color: #c7b299;
+}
+
+.header-link:active {
+    color: #fff;
+}
+
+.header-nav {
+    margin: 20px 24px 0 0;
+}
+
+.header-nav-ul {
+    display: block;
+    height: 20px;
+    width: 710px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.header-nav-li {
+    display: inline-block;
+}
+
+.header-nav-link {
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 13px 0 13px;
+}
+
+.nav-avtive {
+    color: #c7b299;
+}
+
+.header-nav-link:hover {
+    color: #c7b299;
+}
+
+.header-nav-link:active {
+    color: #fff;
+}
+
+.header-btn {
+    border: 0;
+    background: none;
+    margin: 15px 14px 0 24px;
+}
+
+.header-btn:active,
+.header-btn:hover,
+.header-btn:focus {
+    outline: none;
+}
+
+.header-btn-svg {
+    fill: #fff;
+}
+
+.header-btn:hover .header-btn-svg {
+    fill: #c7b299;
+}
+
+.header-form {
+    margin: 15px 224px 0 14px;
+}
+
+.header-search {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    outline: none;
+    background-image: url(../img/icon-search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.header-search:focus {
+    width: 200px;
+    margin: 15px 0 0 14px;
+    transition: width 1s ease-out;
+    background-position: right;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* Стили для section в хедер */
+.header-section {
+    width: 100%;
+    /* border: 1px solid black; */
+    align-self: flex-end;
+    min-height: 603px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.header-section-btn {
+    border: 0;
+    background: none;
+    height: 73px;
+    width: 40px;
+    padding: 0;
+    margin: 94px 0 0 0;
+    opacity: 0.5;
+}
+
+.btn-left-svg,
+.btn-right-svg {
+    fill: #fff;
+}
+
+.btn-left-svg:hover,
+.btn-right-svg:hover {
+    fill: #d3c1ad;
+}
+
+.header-section-btn:active,
+.header-section-btn:hover,
+.header-section-btn:focus {
+    outline: none;
+}
+
+.header-section-wrp {
+    height: 300px;
+    width: 590px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.header-section-title-h2 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 14px 0;
+}
+
+.header-section-title-h1 {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 800;
+    margin: 0 0 19px 0;
+}
+
+.header-section-text {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0 52px 0;
+}
+
+.header-section-link {
+    display: block;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 53px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.header-section-pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    align-self: flex-end;
+}
+
+.section-pagination-circle {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin: 5px;
+    opacity: 0.5;
+
+}
+
+.section-pagination-circle:hover {
+    background-color: #212121;
+    border: 2px solid #d3c1ad;
+
+}
+
+.circle-active {
+    background-color: #212121;
+    border: 2px solid #d3c1ad;
+    transform: scale(1.4);
+}
