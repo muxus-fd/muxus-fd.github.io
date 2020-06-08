@@ -728,6 +728,23 @@ body {
     margin: 40px auto;
 }
 
+.main-projects-btn-load:hover {
+    background-color: #ffffff;
+    color: #998675;
+
+}
+
+.main-projects-btn-load:active {
+    background-color: #998675;
+    color: #ffffff;
+    outline: none;
+}
+
+.main-projects-btn-load:focus {
+    outline: none;
+}
+
+
 
 /* Стили для видео */
 
