@@ -1,61 +1,68 @@
 @font-face {
-    font-family: 'montserrat';
-    src: url('../ fonts/montserrat/regular/montserrat-regular.eot');
-    src: url('../fonts/montserrat/regular/montserrat-regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/montserrat/regular/montserrat-regular.woff2') format('woff2'),
-        url('../fonts/montserrat/regular/montserrat-regular.woff') format('woff'),
-        url('../fonts/montserrat/regular/montserrat-regular.ttf') format('ttf');
+    font-family: montserrat;
+    src: url("../ fonts/montserrat/regular/montserrat-regular.eot");
+    src: url("../fonts/montserrat/regular/montserrat-regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/montserrat/regular/montserrat-regular.woff2") format("woff2"),
+        url("../fonts/montserrat/regular/montserrat-regular.woff") format("woff"),
+        url("../fonts/montserrat/regular/montserrat-regular.ttf") format("ttf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: montserrat;
-    src: url(../fonts/montserrat/montserrat-bold.ttf);
+    src: url("../fonts/montserrat/montserrat-bold.ttf");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: montserrat;
-    src: url(../fonts/montserrat/montserrat-light.ttf);
+    src: url("../fonts/montserrat/montserrat-light.ttf");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: montserratUL;
-    src: url(../fonts/montserrat/Montserrat-UltraLight.otf);
+    src: url("../fonts/montserrat/montserrat-ultraLight.otf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url("../fonts/Raleway/Raleway-Regular.eot?") format("eot"),
-        url("../fonts/Raleway/Raleway-Regular.woff") format("woff"),
-        url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"), url("../fonts/Raleway/Raleway-Regular.svg#Raleway") format("svg");
+    font-family: raleway;
+    src: url("../fonts/raleway/raleway-regular.eot?") format("eot"),
+        url("../fonts/raleway/raleway-regular.woff") format("woff"),
+        url("../fonts/raleway/raleway-regular.ttf") format("truetype"), url("../fonts/raleway/raleway-regular.svg#raleway") format("svg");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url("../fonts/Raleway/Raleway-Light.ttf");
+    font-family: raleway;
+    src: url("../fonts/raleway/raleway-light.ttf");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url("../fonts/Raleway/Raleway-ExtraLight.ttf");
+    font-family: raleway;
+    src: url("../fonts/raleway/raleway-extralight.ttf");
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url("../fonts/Raleway/Raleway-ExtraBold.ttf");
+    font-family: raleway;
+    src: url("../fonts/raleway/raleway-extrabold.ttf");
     font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("../fonts/raleway/raleway-semibold.ttf");
+    font-weight: 500;
     font-style: normal;
 }
