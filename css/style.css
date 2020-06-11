@@ -625,7 +625,7 @@ body {
     border: 10px solid transparent;
     border-bottom: 10px solid #fbfaf8;
     position: absolute;
-    top: -18px;
+    top: -20px;
     left: 19px;
 }
 
@@ -1175,7 +1175,7 @@ body {
 
 /* Стили для партнеров */
 .main-partner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background-partner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-partner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
