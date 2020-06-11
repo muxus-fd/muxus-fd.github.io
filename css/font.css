@@ -24,8 +24,8 @@
 }
 
 @font-face {
-    font-family: montserratUL;
-    src: url("../fonts/montserrat/montserrat-ultraLight.otf");
+    font-family: montserratul;
+    src: url("../fonts/montserrat/montserrat-ultralight.otf");
     font-weight: 400;
     font-style: normal;
 }
@@ -64,5 +64,12 @@
     font-family: raleway;
     src: url("../fonts/raleway/raleway-semibold.ttf");
     font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/roboto/roboto-regular.ttf");
+    font-weight: 400;
     font-style: normal;
 }
