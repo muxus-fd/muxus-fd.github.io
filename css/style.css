@@ -1193,7 +1193,6 @@ margin: 30px 0 0 0;
 .main-post-btn:hover {
 	outline: none;
 	fill: #c7b299;
-	transition: 0.5s;
 }
 
 .main-post-btn:active,
@@ -1518,7 +1517,7 @@ margin: 30px 0 0 0;
 	.menu-hamburger {
 		display: flex;
 		align-items: center;
-		position: fixed;
+		position: absolute;
 		top: 18px;
 		right: 10px ;
 		width: 26px;
@@ -1603,6 +1602,7 @@ margin: 30px 0 0 0;
 		margin: 0 0 30px 0;
 	}
 	.main-projects-btn {
+        padding: 4px 5px;
 		margin: 5px 0 0 10px;
 	}
 	.main-projects-btn-load {
@@ -1649,11 +1649,14 @@ margin: 30px 0 0 0;
 	.main-partner {
 		padding: 30px;
 		flex-wrap: wrap;
-		justify-content: center;
 	}
 	.main-partner-link {
 		margin: 0 0 40px 0;
 	}
+    .main-partner-link-img{
+        width: 110px;
+        height: auto;
+    }
 	.footer-block {
 		display: none;
 	}
